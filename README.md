@@ -20,9 +20,9 @@ mkdir -p ~/.claude/skills/mckinsey_zh
 cp SKILL.md ~/.claude/skills/mckinsey_zh/
 ```
 
-## Usage
+## 用法
 
-In Claude Code, invoke the skill:
+在 Claude Code, 调用skill
 
 ```
 /mckinsey_zh 分析08年经济危机
