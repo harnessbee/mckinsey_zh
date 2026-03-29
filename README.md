@@ -7,14 +7,15 @@
 
 ```bash
 mkdir -p ~/.claude/skills
-git clone [https://github.com/harnessbee/mckinsey_zh](https://github.com/harnessbee/mckinsey_zh) ~/.claude/skills/mckinsey_zh
+git clone https://github.com/harnessbee/mckinsey_zh ~/.claude/skills/mckinsey_zh
 ```
 
-### Manual install/update (only the skill file)
+### 手动安装（只移动SKILL.md文件）
 
-If you already have this repo cloned (or you downloaded `SKILL.md`), copy the skill file into Claude Code’s skills directory:
+需要先clone仓库，然后
 
 ```bash
+cd mckinsey_zh
 mkdir -p ~/.claude/skills/mckinsey_zh
 cp SKILL.md ~/.claude/skills/mckinsey_zh/
 ```
